@@ -3,7 +3,7 @@ const fs = require("fs");
 
 async function generateJsonDB() {
   const pokemonApiURL = "https://pokeapi.co/api/v2/pokemon/";
-  const POKEMON_COUNT = 10; // Jumlah Pokemon yang ingin diambil
+  const POKEMON_COUNT = 100; // Jumlah Pokemon yang ingin diambil
   let pokemonList = [];
 
   try {
